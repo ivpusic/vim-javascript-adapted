@@ -46,6 +46,8 @@ let g:pymode_rope_goto_definition_cmd = 'e'
 let g:pymode_lint_ignore = "E501"
 let g:pymode_rope_rename_bind = '<C-c>rr'
 
+"emmet
+imap <C-o> <C-y>,
 
 " easy-tags
 let g:easytags_auto_highlight = 0
