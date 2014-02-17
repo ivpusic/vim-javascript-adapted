@@ -4,3 +4,6 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "ember.vim"]
+	path = ember.vim
+	url = git@github.com:dsawardekar/ember.vim.git
