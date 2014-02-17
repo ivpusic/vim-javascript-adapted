@@ -7,3 +7,6 @@
 [submodule "ember.vim"]
 	path = ember.vim
 	url = git@github.com:dsawardekar/ember.vim.git
+[submodule "bundle/ember.vim"]
+	path = bundle/ember.vim
+	url = git@github.com:dsawardekar/ember.vim.git
