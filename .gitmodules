@@ -10,3 +10,6 @@
 [submodule "bundle/ember.vim"]
 	path = bundle/ember.vim
 	url = git@github.com:dsawardekar/ember.vim.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
