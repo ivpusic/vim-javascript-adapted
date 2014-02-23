@@ -1,0 +1,3 @@
+sudo npm install -g jshint
+cd bundle/tern_for_vim/
+npm install
