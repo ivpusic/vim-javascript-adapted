@@ -58,6 +58,6 @@
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = git@github.com:wincent/Command-T.git
