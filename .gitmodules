@@ -4,12 +4,12 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
-[submodule "ember.vim"]
-	path = ember.vim
-	url = git@github.com:dsawardekar/ember.vim.git
 [submodule "bundle/ember.vim"]
 	path = bundle/ember.vim
 	url = git@github.com:dsawardekar/ember.vim.git
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
