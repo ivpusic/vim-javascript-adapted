@@ -1,3 +1,7 @@
 sudo npm install -g jshint
 cd bundle/tern_for_vim/
 npm install
+# install ruby, ruby-devel
+cd .vim/bundle/Command-T/ruby/command-t
+ruby extconf.rb
+make
