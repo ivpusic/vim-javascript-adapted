@@ -79,6 +79,10 @@ let g:easytags_auto_highlight = 0
 " NERDTree
 let NERDTreeIgnore = ['\.pyc$']
 
+" js-hint
+let g:syntastic_javascript_checkers = ['jshint']
+
+
 " key bindings
 :noremap <C-a> g0
 :noremap <C-e> g$
