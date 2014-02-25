@@ -5,3 +5,5 @@ npm install
 cd .vim/bundle/Command-T/ruby/command-t
 ruby extconf.rb
 make
+cd bundle/YouCompleteMe
+./install.sh
