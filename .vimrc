@@ -59,6 +59,7 @@ set suffixesadd+=.js
 " node-airline
 let g:airline_theme='badwolf'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#syntastic#enabled = 0
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 let g:airline_section_y = '%t'
@@ -82,6 +83,8 @@ let NERDTreeIgnore = ['\.pyc$']
 " js-hint
 let g:syntastic_javascript_checkers = ['jshint']
 
+" bclose
+:nnoremap <Leader>q :Bclose<CR>
 
 " key bindings
 :noremap <C-a> g0
