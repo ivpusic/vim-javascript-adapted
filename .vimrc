@@ -86,6 +86,9 @@ let g:syntastic_javascript_checkers = ['jshint']
 " bclose
 :nnoremap <Leader>q :Bclose<CR>
 
+" ycm
+let g:ycm_key_list_select_completion = ['<Down>']
+
 " key bindings
 :noremap <C-a> g0
 :noremap <C-e> g$
