@@ -99,9 +99,6 @@ inoremap <C-e> <End>
 :set ttyfast
 :set lazyredraw
 
-" indent
-autocmd FileType html set tabstop=8|set shiftwidth=2|set expandtab
-
 " FUNCTIONS
 function! NERDTreeQuit()
 	redir => buffersoutput
