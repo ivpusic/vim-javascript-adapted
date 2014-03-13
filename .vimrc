@@ -99,6 +99,16 @@ inoremap <C-e> <End>
 :set ttyfast
 :set lazyredraw
 
+" dir lookup
+set autochdir
+
+" tlist
+nnoremap <silent> <F8> :TlistToggle<CR>
+let Tlist_Use_Right_Window = 1
+let Tlist_GainFocus_On_ToggleOpen = 1
+
+map <c-f> :call JsBeautify()<cr>
+
 " FUNCTIONS
 function! NERDTreeQuit()
 	redir => buffersoutput
