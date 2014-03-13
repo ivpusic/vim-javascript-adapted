@@ -82,6 +82,8 @@ List of installed plugins:
 ├── acp.vim
 ├── bclose.vim
 └── matchit.vim
+└── taglist
+└── vim-jsbeautify
 
 ```
 
