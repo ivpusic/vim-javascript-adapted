@@ -24,6 +24,9 @@ Then you need to init some modules inside ``.vim`` directory. Be sure to install
 # install jshint
 sudo npm install -g jshint
 
+# init vim-jsbeautify
+cd ~/.vim/bundle/vim-jsbeautify && git submodule update --init --recursive
+
 # init tern_for_vim
 cd ~/.vim/bundle/tern_for_vim/
 npm install
@@ -99,6 +102,12 @@ There are some specific, and they are defined in ``.vimrc`` file, so you can eas
 ##### node-airline
 ``tab`` (next buffer) (NORMAL mode)
 ``shift-tab`` (previous buffer) (NORMAL mode)
+
+##### vim-jsbeautify
+``c-f`` (javascript formating) (NORMAL mode)
+
+##### taglist
+``F8`` (open taglist)
 
 ##### Bclose
 ``Leader - q `` (closing current buffer without messing workspaces) (NORMAL mode)
