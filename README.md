@@ -40,10 +40,11 @@ make
 cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.sh
-```
 
 # ctags tags generation for javascript 
 cp ~/.vim/.ctags ~/
+```
+
 
 ### Plugins
 
