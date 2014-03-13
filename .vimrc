@@ -76,6 +76,8 @@ let g:nodejs_complete_config = {
 
 " easy-tags
 let g:easytags_auto_highlight = 0
+let g:easytags_cmd = '/usr/bin/ctags'
+
 
 " NERDTree
 let NERDTreeIgnore = ['\.pyc$']
@@ -106,6 +108,7 @@ set autochdir
 nnoremap <silent> <F8> :TlistToggle<CR>
 let Tlist_Use_Right_Window = 1
 let Tlist_GainFocus_On_ToggleOpen = 1
+let g:tlist_javascript_settings = 'javascript;s:string;a:array;o:object;f:function'
 
 map <c-f> :call JsBeautify()<cr>
 
