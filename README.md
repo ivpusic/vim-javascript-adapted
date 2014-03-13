@@ -42,6 +42,9 @@ git submodule update --init --recursive
 ./install.sh
 ```
 
+# ctags tags generation for javascript 
+cp ~/.vim/.ctags ~/
+
 ### Plugins
 
 There is a lot of plugins installed, and they main purpose is to make javascript developer easier.
