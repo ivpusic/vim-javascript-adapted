@@ -1,6 +1,9 @@
 vim-javascript-adapted
 =========
 
+### Preview
+![alt tag](http://s4.postimg.org/gbee2osz1/Screenshot_from_2014_03_15_11_17_20.png)
+
 This is vim-javascript-adapter repository, with vim configuration which is specially adapted for javascript/node.js/ember/html/xml/.... developers.
 
 ### Installation
